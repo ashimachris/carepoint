@@ -18,7 +18,7 @@ const navLinks = [
 ];
 
 const MobileNav: React.FC = () => {
-  const whatsappLink = "https://wa.me/xxxxxxxxxxxx";
+  const whatsappLink = "https://wa.me/2347070703862?text=Hello%20CarePoint%20%F0%9F%91%8B%0AI%20need%20help%20finding%20a%20medication.%20Please%20assist.";
 
   return (
     <div className="md:hidden">

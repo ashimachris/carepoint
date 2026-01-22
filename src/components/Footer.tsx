@@ -4,7 +4,7 @@ import logo from "@/assets/logo.png";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-  const whatsappLink = "https://wa.me/xxxxxxxxxxxx";
+  const whatsappLink = "https://wa.me/2347070703862?text=Hello%20CarePoint%20%F0%9F%91%8B%0AI%20need%20help%20finding%20a%20medication.%20Please%20assist.";
 
   return (
     <footer className="relative border-t border-border overflow-hidden">
@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               <img src={logo} alt="CarePoint" className="h-14 md:h-16 w-auto" />
             </a>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Your trusted partner for sourcing hard-to-find medications across the country.
+              CarePoint is powered by Tato Pharmaceuticals, a pharmaceutical company committed to delivering quality medicines and healthcare solutions across Nigeria.
             </p>
           </div>
 
