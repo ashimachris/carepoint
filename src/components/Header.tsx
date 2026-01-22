@@ -6,7 +6,7 @@ import MobileNav from "@/components/MobileNav";
 import logo from "@/assets/logo.png";
 
 const Header: React.FC = () => {
-  const whatsappLink = "https://wa.me/xxxxxxxxxxxx";
+  const whatsappLink = "https://wa.me/2347070703862?text=Hello%20CarePoint%20%F0%9F%91%8B%0AI%20need%20help%20finding%20a%20medication.%20Please%20assist.";
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">

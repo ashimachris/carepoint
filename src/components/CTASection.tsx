@@ -5,7 +5,7 @@ import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import useScrollAnimation from "@/hooks/use-scroll-animation";
 
 const CTASection: React.FC = () => {
-  const whatsappLink = "https://wa.me/xxxxxxxxxxxx";
+  const whatsappLink = "https://wa.me/2347070703862?text=Hello%20CarePoint%20%F0%9F%91%8B%0AI%20need%20help%20finding%20a%20medication.%20Please%20assist.";
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.2 });
 
   return (
@@ -55,7 +55,7 @@ const CTASection: React.FC = () => {
               variant="outline" 
               size="xl" 
               asChild 
-              className="gap-2.5 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+              className="gap-2.5 bg-background text-secondary border-transparent hover:bg-background/90 shadow-lg"
             >
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Building2 className="w-5 h-5" />
