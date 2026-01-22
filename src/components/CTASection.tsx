@@ -42,7 +42,7 @@ const CTASection: React.FC = () => {
               variant="outline" 
               size="xl" 
               asChild 
-              className="gap-2.5 bg-background text-secondary border-transparent hover:bg-background/90 shadow-lg"
+              className="gap-2.5 bg-white text-secondary border-transparent hover:bg-white/90 shadow-lg dark:bg-white dark:text-secondary dark:hover:bg-white/90"
             >
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon size={22} />
@@ -55,7 +55,7 @@ const CTASection: React.FC = () => {
               variant="outline" 
               size="xl" 
               asChild 
-              className="gap-2.5 bg-background text-secondary border-transparent hover:bg-background/90 shadow-lg"
+              className="gap-2.5 bg-white text-secondary border-transparent hover:bg-white/90 shadow-lg dark:bg-white dark:text-secondary dark:hover:bg-white/90"
             >
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Building2 className="w-5 h-5" />
