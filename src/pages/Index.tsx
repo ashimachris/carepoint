@@ -8,6 +8,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const Index: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const Index: React.FC = () => {
         <CTASection />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
