@@ -10,7 +10,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
-      <div className="container flex items-center justify-between h-16 md:h-18">
+      <div className="container flex items-center justify-between h-20 md:h-24 py-2">
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img src={logo} alt="CarePoint" className="h-14 md:h-16 w-auto" />
